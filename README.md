@@ -1,7 +1,63 @@
-### Hi there 👋
+```php
+<?php
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=samfelgar&count_private=true&show_icons=true&theme=radical)
+namespace Samuel;
 
+class About extends Me
+{
+    public function __construct()
+    {
+        echo 'Hi there!';
+    }
+
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'mLearn',
+                'position' => 'Backend developer'         
+            ]
+        ];
+    }
+
+    public function getKnowledge(): array
+    {
+        return [
+            'programmingLanguages' => [
+                Php::class,
+                Javascript::class,
+                Java::class,
+            ],
+
+            'frameworks' => [
+                Laravel::class,
+                Vuejs::class,
+                React::class,
+            ],
+
+            'devOps' => [
+                Aws::class,
+                Docker::class,
+            ]
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To learn, always';
+    }
+}
+
+```
+
+
+<center>
+
+### [@samfelgar](https://twitter.com/samfelgar)
+
+### [linkedin](https://www.linkedin.com/in/samfelgar/)
+
+</center>
 
 <!--
 **samfelgar/samfelgar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
