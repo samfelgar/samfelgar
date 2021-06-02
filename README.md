@@ -50,12 +50,10 @@ class About extends Me
 
 ```
 
-
 <center>
 
-### [@samfelgar](https://twitter.com/samfelgar)
-
-### [linkedin](https://www.linkedin.com/in/samfelgar/)
+<a href = 'https://www.linkedin.com/in/samfelgar'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>
+<a href = 'https://www.twitter.com/samfelgar'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>  <a href = 'https://www.github.com/samfelgar'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> 
 
 </center>
 
