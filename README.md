@@ -24,19 +24,19 @@ class About extends Me
     {
         return [
             'programmingLanguages' => [
-                Php::class,
+                PHP::class,
                 Javascript::class,
                 Java::class,
             ],
 
             'frameworks' => [
                 Laravel::class,
-                Vuejs::class,
+                VueJS::class,
                 React::class,
             ],
 
             'devOps' => [
-                Aws::class,
+                AWS::class,
                 Docker::class,
             ]
         ];
